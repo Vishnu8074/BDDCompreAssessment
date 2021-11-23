@@ -1,6 +1,7 @@
 package StepDefinitions;
 
 import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
 
 import PageObjects.WhatsNewPage;
 import ReusableComponents.BaseClass;
@@ -12,7 +13,7 @@ public class WhatsNewStepdef extends BaseClass{
 
 	@Given("^user clicks on whatsNew button$")
 	    public void user_clicks_on_whatsnew_button() throws Throwable {
-		driver = GiftsStep.getdriver();
+		driver = ShopCategory.getdriver();
 		homepage.logo().click();
 		whatsnew.getBtn().click();
 		er.startTest("whatsnew page");
@@ -26,10 +27,13 @@ public class WhatsNewStepdef extends BaseClass{
 			log.info("validated of whatsnew page has been dne");
 			Thread.sleep(5000);
 			er.endTest();
-			classTeardown();
+			
 			
 		}
 	}
 	
+	public static WebDriver getdriver() {
+		return driver;
+	}
 
 }

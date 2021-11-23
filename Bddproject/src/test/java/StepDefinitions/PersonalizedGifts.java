@@ -14,7 +14,8 @@ public class PersonalizedGifts extends BaseClass {
 
 	@Given("^user clicks on PersonalisedGifts available in home page$")
 	public void user_clicks_on_personalisedgifts_available_in_home_page() throws Throwable {
-		driver = MerchendiseCOD.getdriver();
+		driver = SearchProduct.getdriver();
+		//SearchProduct
 		Thread.sleep(5000);
 		personalGifts.getPGBtn().click();
 	}

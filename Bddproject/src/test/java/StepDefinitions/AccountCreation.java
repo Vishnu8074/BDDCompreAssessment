@@ -19,7 +19,7 @@ public class AccountCreation extends BaseClass {
 
 	@Given("^user is on sign in page$")
 	public void user_is_on_sign_in_page() throws Throwable {
-		driver = PersonalizedGifts.getdriver();
+		driver = GiftCard.getdriver();
 		homepage.logo().click();
 		homepage.sigin().click();
 

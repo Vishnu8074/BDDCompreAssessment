@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-23T06:56:28Z" name="Default suite" finished-at="2021-11-23T07:00:39Z" duration-ms="250893">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-11-23T06:56:28Z" name="Default test" finished-at="2021-11-23T07:00:39Z" duration-ms="250893">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:26:28Z" name="setUpClass" finished-at="2021-11-23T12:26:29Z" duration-ms="1035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b999ee8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:26:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:27:23Z" duration-ms="53526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the website of the project"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Open browser]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:27:23Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:27:50Z" duration-ms="27443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in to the website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Signin to the account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:27:50Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:28:24Z" duration-ms="33672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding product from homepage to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Adding product from homepage to cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:28:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:29:00Z" duration-ms="36698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating the giftcard"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Clicking on giftcard]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:29:00Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:29:18Z" duration-ms="17869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking functionality of create account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:29:18Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:29:30Z" duration-ms="11780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching products from excel through searchbox"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Searching products from excel through searchbox]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:29:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:29:42Z" duration-ms="11694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing PersonalisedGifts functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing PersonalisedGifts functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:29:42Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:30:01Z" duration-ms="19551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Entering pincode and checking for cash on delivery option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing Cash on delivery availability]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:30:01Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:30:22Z" duration-ms="20455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing functionality of shop by category on homepage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing functionality of shop by category on homepage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:30:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:30:37Z" duration-ms="15489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["WhatsNew Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking whether entering into Whats New page or not]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:30:37Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-23T12:30:39Z" duration-ms="1585" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing Gifts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checking Gifts]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-2GHFTTS4', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\VISHNU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60bd6a325e05b778145b670f9c0005d9
+*** Element info: {Using=xpath, value=//*[@id="myheader"]/div[1]/header/div[2]/div[2]/div[1]/div/a[1]/img[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-2GHFTTS4', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\VISHNU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60bd6a325e05b778145b670f9c0005d9
+*** Element info: {Using=xpath, value=//*[@id="myheader"]/div[1]/header/div[2]/div[2]/div[1]/div/a[1]/img[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at PageObjects.HomePagePO.logo(HomePagePO.java:62)
+	at StepDefinitions.GiftsStep.user_is_on_homepage_and_hovering_on_gifts(GiftsStep.java:25)
+	at ✽.user is on homepage and hovering on Gifts(file:///C:/Users/vishnu%20vardhan%20reddy/git/BDDCompreAssessment/Bddproject/Features/k_gifts.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@7aaca91a]" started-at="2021-11-23T12:30:39Z" name="tearDownClass" finished-at="2021-11-23T12:30:39Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

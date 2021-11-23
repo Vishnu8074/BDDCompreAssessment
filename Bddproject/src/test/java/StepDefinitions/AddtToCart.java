@@ -14,7 +14,7 @@ public class AddtToCart extends BaseClass {
 
 	@Given("^user searches for product on homepage$")
 	public void user_searches_for_product_on_homepage() throws Throwable {
-		driver = GiftCard.getdriver();
+		driver = LogIn.getdriver();
 		homepage.logo().click();
 		Thread.sleep(2000);
 	}

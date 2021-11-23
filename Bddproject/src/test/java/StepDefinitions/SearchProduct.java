@@ -2,6 +2,7 @@ package StepDefinitions;
 
 import java.util.ArrayList;
 
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
@@ -14,7 +15,8 @@ public class SearchProduct extends BaseClass {
 
 	@Given("^user retrieves data from excel and enters in searchbox$")
 	public void user_retrieves_data_from_excel_and_enters_in_searchbox() throws Throwable {
-		driver = AddtToCart.getdriver();
+		driver =AccountCreation.getdriver();
+		//AccountCreation
 		ArrayList<String> data = ex.getData("product");
 		for (int i = 1; i < data.size(); i++) {
 			homepage.searchbox().clear();

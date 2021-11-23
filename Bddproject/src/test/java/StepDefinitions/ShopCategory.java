@@ -18,7 +18,8 @@ public class ShopCategory extends BaseClass{
 
 	@Given("^user hover on shp by category in homepage$")
 	public void user_hover_on_shp_by_category_in_homepage() throws Throwable {
-		driver = SearchProduct.getdriver();
+		driver = MerchendiseCOD.getdriver();
+		//MerchendiseCOD
 		homepage.logo().click();
 		Thread.sleep(2000);
 		Actions a = new Actions(driver);

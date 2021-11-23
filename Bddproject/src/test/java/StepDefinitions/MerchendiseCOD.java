@@ -17,7 +17,8 @@ public class MerchendiseCOD extends BaseClass{
 
     @Given("^user hovers on official merchandise$")
     public void user_hovers_on_official_merchandise() throws Throwable {
-    	driver = ShopCategory.getdriver();
+    	driver = PersonalizedGifts.getdriver();
+    	//PersonalizedGifts
     	homepage.logo().click();
 		Actions a = new Actions(driver);
 		WebElement move = homepage.officialM();

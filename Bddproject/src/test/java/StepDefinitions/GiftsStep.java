@@ -1,7 +1,9 @@
 package StepDefinitions;
 
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
+
+
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -19,7 +21,8 @@ public class GiftsStep extends BaseClass {
 
 	@Given("^user is on homepage and hovering on Gifts$")
 	public void user_is_on_homepage_and_hovering_on_gifts() throws Throwable {
-		driver = AccountCreation.getdriver();
+		driver = WhatsNewStepdef.getdriver();
+	
 		homepage.logo().click();
 		Actions a1 = new Actions(driver);
 		WebElement move = gift.getGifts();
@@ -52,12 +55,13 @@ public class GiftsStep extends BaseClass {
 			}
 		}
 		er.endTest();
+		classTeardown();
 	}
 
 	
 
-	public static WebDriver getdriver() {
-		return driver;
-	}
+	
+	
+	
 
 }

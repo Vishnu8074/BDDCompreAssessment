@@ -1,0 +1,74 @@
+2021-11-23 14:20:11,933  INFO [main] Browser:44 - Driver Initialised
+ 2021-11-23 14:20:23,502 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:20:23,505 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:20:23,508 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:20:23,510 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:20:23,511 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:20:27,161  INFO [main] Browser:20 - Clicked on sigin button
+ 2021-11-23 14:20:46,187  INFO [main] Browser:39 - click on sigin button done
+ 2021-11-23 14:20:46,187 DEBUG [main] Browser:40 - signin page opened as expected
+ 2021-11-23 14:20:46,202 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:20:46,205 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:20:46,208 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:20:46,211 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:20:46,211 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:21:00,679  INFO [main] Browser:25 - user clicks on product so that enters into productpage
+ 2021-11-23 14:21:15,816  INFO [main] Browser:40 - details of the shopping list are closed
+ 2021-11-23 14:21:22,203 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:21:22,205 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:21:22,206 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:21:22,208 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:21:22,209 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:21:33,467  INFO [main] Browser:26 - Navigated to the gift card successfully
+ 2021-11-23 14:21:52,220  INFO [main] Browser:67 - product is added to cart
+ 2021-11-23 14:21:52,222 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:21:52,225 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:21:52,226 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:21:52,228 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:21:52,231 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:22:06,051  INFO [main] Browser:49 - Successfully entered all the details required for account creation
+ 2021-11-23 14:22:06,310  INFO [main] Browser:54 - cleared
+ 2021-11-23 14:22:08,918  INFO [main] Browser:49 - Successfully entered all the details required for account creation
+ 2021-11-23 14:22:09,121  INFO [main] Browser:54 - cleared
+ 2021-11-23 14:22:12,744 DEBUG [main] Browser:26 - Searched for the product by taking data from excel
+ 2021-11-23 14:22:16,718 DEBUG [main] Browser:26 - Searched for the product by taking data from excel
+ 2021-11-23 14:22:20,020 DEBUG [main] Browser:26 - Searched for the product by taking data from excel
+ 2021-11-23 14:22:20,021 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:22:20,023 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:22:20,024 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:22:20,025 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:22:20,025 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:22:30,834  INFO [main] Browser:35 - Successfully found Personalized Wonder woman product
+ 2021-11-23 14:22:32,850 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:22:32,852 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:22:32,853 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:22:32,854 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:22:32,855 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:22:53,563 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:22:53,565 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:22:53,566 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:22:53,566 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:22:53,567 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:23:09,439  INFO [main] Browser:43 - Morning Glory Semi-Precious Ring product has been found successfully
+ 2021-11-23 14:23:09,440  INFO [main] Browser:45 - product has been found
+ 2021-11-23 14:23:13,564  INFO [main] Browser:56 - jewelery product will be added to wishlist
+ 2021-11-23 14:23:13,565 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:23:13,567 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:23:13,568 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:23:13,568 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:23:13,569 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:23:22,507  INFO [main] Browser:27 - validated of whatsnew page has been dne
+ 2021-11-23 14:23:27,523 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:23:27,525 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:23:27,525 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:23:27,526 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:23:27,526 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:23:35,777  INFO [main] Browser:39 - validation completed successfully
+ 2021-11-23 14:23:41,635  INFO [main] Browser:49 - sorted it in price-ascending
+ 2021-11-23 14:23:44,649 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+ 2021-11-23 14:23:44,651 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+ 2021-11-23 14:23:44,651 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+ 2021-11-23 14:23:44,652 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+ 2021-11-23 14:23:44,652 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/vishnu%20vardhan%20reddy/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+ 2021-11-23 14:23:45,083  INFO [main] Browser:54 - closed driver
+ 

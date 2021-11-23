@@ -16,7 +16,8 @@ public class GiftCard extends BaseClass {
 	@Given("^user clicks on giftcard$")
     public void user_clicks_on_giftcard() throws Throwable {
 		
-		driver = LogIn.getdriver();
+		driver = AddtToCart.getdriver();
+		
 		Thread.sleep(2000);
 		homepage.logo().click();
 		Thread.sleep(2000);
